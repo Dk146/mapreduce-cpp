@@ -3,6 +3,8 @@
 ## Overview
 This project is an attempt to build a MapReduce-like system in C++. The current implementation focuses on creating a multithreaded worker as the foundation for the system. Future iterations will expand on this by introducing inter-process communication and simulating random interruptions between worker and coorinator.
 
+![alt text](diagram.png)
+
 ## Current Features
 - **Multithreaded Worker**: The current implementation processes input files using multiple threads to simulate the "map" phase of MapReduce.
 
