@@ -12,6 +12,7 @@ This project is an attempt to build a MapReduce-like system in C++. The current 
 3. **Additional Tests**: Expand the test suite to cover edge cases and ensure robustness.
 
 ## Build 
+```bash
 mkdir build
 cd build
 
@@ -20,6 +21,8 @@ cmake -DCMAKE_BUILD_TYPE=Debug ..
 make
 
 ./worker ../src/input_file/*.txt
-
+```
 ### or just simply run:
+```bash
 bash wordcount-test.sh
+```
